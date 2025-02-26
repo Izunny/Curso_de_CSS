@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  text-align: center;
+  color: black;
+} 
+
+#para1 { 
+  text-align: center;
+  color: yellowgreen;
+}
+
+p.center {
+  text-align: center;
+  color: red;
+}
+
+p.center {
+  text-align: center;
+  color: grey;
+}
+
+p.large {
+  font-size: 300%;
+}
+</style>
+<!--
+ todos los elementos <p> de la página estarán alineados al centro, 
+ 
+regla CSS se aplicará al elemento HTML con id="para1":
+
+tambien podemos hacer un cambio universal 
+
+* {
+  text-align: center;
+  color: blue;
+}
+
+con esto todo se veri aafectado
+  -->
+</head>
+<body>
+
+<p> hola </p>
+<p id="para1">muendo </p>
+<p>...!</p>
+
+<h1 class="center">este no se ve afectado</h1>
+<p class="center">pero este si</p> 
+
+<p class="center large">Este párrafo será de color gris</p> 
+
+
+</body>
+</html>
