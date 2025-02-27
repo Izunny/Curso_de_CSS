@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.one {
+  border-style: solid;
+  border-width: 5px;
+}
+
+p.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+p.three {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+p.four {
+  border-style: dotted;
+  border-width: thick;
+}
+
+p.five {
+  border-style: double;
+  border-width: 15px;
+}
+
+p.six {
+  border-style: double;
+  border-width: thick;
+}
+
+p.one1 {
+  border-style: solid;
+  border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+}
+
+p.two1 {
+  border-style: solid;
+  border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+}
+
+p.three1 {
+  border-style: solid;
+  border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+}
+</style>
+</head>
+<body>
+
+<h2>border-wide</h2>
+<p>Esta propiedad especifica el ancho de los cuatro bordes:</p>
+
+<p class="one">texto</p>
+<p class="two">texto</p>
+<p class="three">texto</p>
+<p class="four">texto</p>
+<p class="five">texto</p>
+<p class="six">texto</p>
+
+<p class="one1">Some text.</p>
+<p class="two1">Some text.</p>
+<p class="three1">Some text.</p>
+
+<p><b>Nota:</b> La propiedad "border-width" no funciona si se utiliza sola. Especifique siempre la propiedad "border-style" para configurar los bordes primero.</p>
+
+</body>
+</html>

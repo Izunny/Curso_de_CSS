@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.one {
+  border-style: solid;
+  border-color: green;
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+
+p.two {
+    border-left: 6px solid red;
+    background-color: lightgrey;
+  border-color: blueviolet;
+} 
+
+p.three {
+    border-bottom: 6px solid red;
+    background-color: lightgrey;
+  border-color: red;
+} 
+
+
+p.one1 {
+    border-style: solid;
+    border: 10px solid rgb(71, 129, 146);
+    border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+  }
+</style>
+</head>
+<body>
+
+<h2>color</h2>
+<p>Esta propiedad especifica el color de los cuatro bordes:</p>
+
+<p class="one">sólido</p>
+<p class="two">sólido</p>
+<p class="three">sólido</p>
+
+<p class="one1">multi color</p>
+
+<p><b>Nota:</b>  La propiedad "border-color" no funciona si se utiliza sola. Utilice la propiedad "border-style" para configurar los bordes primero.</p>
+
+</body>
+</html>
