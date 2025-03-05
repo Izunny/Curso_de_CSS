@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  border: 3px solid #4CAF50;
+  padding: 5px;
+}
+
+.img1 {
+  float: right;
+}
+
+.img2 {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h2> Clearfix</h2>
+
+<p>Esta imagen flota hacia la derecha. También es más alta que el elemento que la contiene, por lo que se desborda fuera de su contenedor:</p>
+
+<div>
+  <img class="img1" src="tig.jpg" alt="tig" width="170" height="170">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+</div>
+
+<h2 style="clear:right">Clearfix</h2>
+<p>Agregue el truco clearfix al elemento contenedor para solucionar este problema:</p>
+
+<div class="clearfix">
+  <img class="img2" src="tig.jpg" alt="tig" width="170" height="170">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+</div>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+}
+
+.black-box {
+  position: relative;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box {
+  position: absolute;
+  background: lightgray;
+  height: 60px;  
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.green-box {
+  position: absolute;
+  background: rgb(144, 158, 238);
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
+</style>
+</head>
+<body>
+
+<h1>Overlapping </h1>
+
+<p>Si dos elementos posicionados se superponen entre sí sin un índice z especificado, el elemento definido en último lugar en el código HTML se mostrará en la parte superior:</p>
+
+<div class="container">
+  <div class="black-box">Caja negra</div>
+  <div class="gray-box">Caja gris</div>
+  <div class="green-box">Caja verde</div>
+</div>
+
+</body>
+</html>
