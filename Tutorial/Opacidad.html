@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+div {
+    background: rgb(4, 43, 170);
+    padding: 10px;
+  }
+  
+  div.first {
+    background: rgba(4, 70, 170, 0.1);
+  }
+  
+  div.second {
+    background: rgba(7, 4, 170, 0.3);
+  }
+  
+  div.third {
+    background: rgba(4, 170, 109, 0.6);
+  }
+</style>
+</head>
+<body>
+
+<h1>Transparencia </h1>
+<p>La propiedad de opacidad se utiliza a menudo junto con el selector :hover para cambiar la opacidad al pasar el mouse por encima:</p>
+<img src="img_forest.jpg" alt="Forest" width="170" height="100">
+<img src="img_mountains.jpg" alt="Mountains" width="170" height="100">
+<img src="img_5terre.jpg" alt="Italy" width="170" height="100">
+
+
+<h1> Box</h1>
+<p>Con opacidad:</p>
+<div style="opacity:0.1;"><p>10% opacidad</p></div>
+<div style="opacity:0.3;"><p>30% opacidad</p></div>
+<div style="opacity:0.6;"><p>60% opacidad</p></div>
+<div><p>opacidad 1</p></div>
+
+<p>Con valores de color RGBA:</p>
+<div class="first"><p>10% opacidad</p></div>
+<div class="second"><p>30% opacidad</p></div>
+<div class="third"><p>60% opacidad</p></div>
+<div><p>default</p></div>
+
+<p>Observe cómo el texto se vuelve transparente y también el color de fondo cuando se utiliza la propiedad de opacidad.</p>
+
+</body>
+</html>
