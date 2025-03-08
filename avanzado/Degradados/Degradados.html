@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow);
+}
+#grad2 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red , yellow);
+  }
+
+  #grad3 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, red, yellow);
+  }
+</style>
+</head>
+<body>
+
+<h1>Degradado lineal: de arriba a abajo</h1>
+<div id="grad1"></div>
+
+<h1>Degradado lineal: de izquierda a derecha</h1>
+<div id="grad2"></div>
+
+<h1>Degradado lineal - Diagonal</h1>
+<div id="grad3"></div>
+
+</body>
+</html>
